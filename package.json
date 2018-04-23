@@ -1,0 +1,24 @@
+{
+  "name": "b6",
+  "description": "Node.js wrapper over libb6",
+  "version": "1.0.0",
+  "author": "Maciej Sopyło <me@klh.io>",
+  "license": "GPL-3.0-or-later",
+  "repository": "maciek134/node-b6",
+  "keywords": [
+    "charging",
+    "battery",
+    "b6"
+  ],
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "dependencies": {
+    "node-cmake": "^2.5.1"
+  },
+  "main": "index.js",
+  "os": [ "linux" ],
+  "scripts": {
+    "install": "node_modules/.bin/ncmake rebuild"
+  }
+}
